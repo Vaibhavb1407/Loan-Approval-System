@@ -80,7 +80,3 @@ Run the notebook from top to bottom so every preprocessing and evaluation step i
 - The identifier column (`Applicant_ID`) is excluded before modelling.
 - KNN hyperparameter search considers `k = 3, 5, 7, 9, 11` and selects the model using precision-based cross-validation.
 - Results are specific to the included dataset and fixed split; this project is intended as a portfolio and learning project, not a production loan-decision system.
-
-## Resume-ready project description
-
-Built a loan-approval prediction system in Python using Logistic Regression, KNN, and Gaussian Naive Bayes. Performed missing-value imputation, categorical encoding, feature scaling, exploratory analysis, and feature engineering; Logistic Regression achieved **87.5% accuracy** and a **79.7% F1-score** on the held-out test set.
